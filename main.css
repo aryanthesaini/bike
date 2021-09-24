@@ -1,0 +1,57 @@
+body{
+    background-color:#212529;
+
+}
+
+
+h2{
+
+    color: #EA1C2C;
+    font-size: 5rem;
+    font-weight: 100;
+}
+h2:hover{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+    line-height: 2.0;
+}
+p:hover{
+    color: #EA1C2C;
+}
+#mainNavbar .navbar-brand{
+    color: #EA1C2C;
+    font-size: 2rem;
+    padding-right: 5%;
+    font-family: "guardiansans-regular";
+
+}
+.content{
+    margin-top: 100px;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #EA1C2C;
+}
+
+#headingGroup span{
+    color: #EA1C2C;
+}
+#headingGroup h1{
+    font-weight: 100;
+}
+
+.navbar.scrolled{
+    background-color: rgb(27, 71, 109);
+}
+
+@media(max-width:1200px){
+    #headingGroup h1{
+        font-size: 2.2rem;
+    }
+    body{
+        background-color: #001d3d;
+    }
+}
+
